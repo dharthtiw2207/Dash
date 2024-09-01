@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Upper Page -->
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <header class="dashboard-header">
+            <div class="filters">
+                <button>This Year</button>
+                <button>This Month</button>
+                <button>This Week</button>
+                <button>Today</button>
+            </div>
+
+            <div class="date"><br>
+                <input type="date" id="date" name="date">
+            </div>
+        </header>
+
+    <main>
+        <div class="subjects">
+            <div class="dv">
+                <h2>Active Users</h2>
+                <p>1,988</p>
+            </div>
+            <div class="dv">
+                <h2>Sales</h2>
+                <p>$123,456,00</p>
+            </div>
+            <div class="dv">
+                <h2>Asgmt to Evaluate</h2>
+                <p>115</p>
+            </div>
+            <div class="dv">
+                <h2>Pulished Courses</h2>
+                <p>10</p>
+            </div>
+        </div>
+
+
+<!-- Lower Page -->
+    <div class="dashboard-content">
+        <div class="best-courses">
+            <h3>Best selling courses</h3>
+            <ul>
+                <li>
+                    <span class="icon course-icon"></span>
+                    <span class="course-name">Cantidades de Obra: Ventanas</span>
+                    <span class="course-author">Dallas Chavarría</span>
+                    <span class="course-count">100</span>
+                </li>
+                <li>
+                    <span class="icon course-icon"></span>
+                    <span class="course-name">Inglés para adultos</span>
+                    <span class="course-author">Giselle Olvera</span>
+                    <span class="course-count">100</span>
+                </li>
+                <li>
+                    <span class="icon course-icon"></span>
+                    <span class="course-name">Revit Básico</span>
+                    <span class="course-author">Enric Briseño</span>
+                    <span class="course-count">100</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="last-transactions">
+            <h3>Last transactions</h3>
+            <ul>
+                <li>
+                    <span class="transaction-icon"></span>
+                    <span class="transaction-user">Dallas Chavarría</span>
+                    <span class="transaction-desc">Course Purchase - Cantidades de Obra: Ventanas</span>
+                    <span class="transaction-date">01/01/2024</span>
+                    <span class="transaction-amount">+$412.88</span>
+                </li>
+                <li>
+                    <span class="transaction-icon"></span>
+                    <span class="transaction-user">Holly Lozada</span>
+                    <span class="transaction-desc">Payout Request - Payout request</span>
+                    <span class="transaction-date">01/01/2024</span>
+                    <span class="transaction-amount">-$210.06</span>
+                </li>
+                <li>
+                    <span class="transaction-icon"></span>
+                    <span class="transaction-user">Giselle Olvera</span>
+                    <span class="transaction-desc">Payout Request - Payout request</span>
+                    <span class="transaction-date">01/01/2024</span>
+                    <span class="transaction-amount">-$210.06</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</main>
+
+</body>
+</html>
